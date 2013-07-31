@@ -3,14 +3,14 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2013-04-22 07:53+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Last-Translator: Rikupekka Oksanen <rioksane@jyu.fi>\n"
+"Language-Team: University of Jyväskylä <www.jyu.fi>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0\n"
 "Language-Code: en\n"
-"Language-Name: English\n"
+"Language-Name: Finnish\n"
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: DOMAIN\n"
 
@@ -64,7 +64,7 @@ msgstr "Lisää widget"
 
 #: ../../facetednavigation/widgets/debug/widget.pt:25
 msgid "After query filters"
-msgstr "Kun kysely suodattimet"
+msgstr "Kyselyn suodattimien jälkeen"
 
 #: ../../facetednavigation/widgets/alphabetic/widget.pt:23
 #: ../../facetednavigation/widgets/radio/widget.pt:31
@@ -78,29 +78,29 @@ msgstr "Aakkosellinen"
 
 #: ../../facetednavigation/browser/template/configure.pt:97
 msgid "Are you sure you want to delete ${widget} widget?"
-msgstr "Oletko varma että haluat poistaa ${widget} widget?"
+msgstr "Oletko varma, että haluat poistaa ${widget} widgetin?"
 
 #: ../../facetednavigation/widgets/checkbox/widget.py:56
 #: ../../facetednavigation/widgets/radio/widget.py:42
 #: ../../facetednavigation/widgets/select/widget.py:39
 msgid "Catalog"
-msgstr "Luettelo"
+msgstr "Katalogi"
 
 #: ../../facetednavigation/widgets/alphabetic/widget.py:30
 #: ../../facetednavigation/widgets/checkbox/widget.py:26
 #: ../../facetednavigation/widgets/date/widget.py:50
 msgid "Catalog index"
-msgstr "Catalog-indeksi"
+msgstr "Katalogi-indeksi"
 
 #: ../../facetednavigation/widgets/alphabetic/widget.py:31
 #: ../../facetednavigation/widgets/checkbox/widget.py:27
 #: ../../facetednavigation/widgets/date/widget.py:51
 msgid "Catalog index to use for search"
-msgstr "Catalog indeksi käyttää hakua"
+msgstr "Katalogi-indeksi käyttää hakua"
 
 #: ../../facetednavigation/widgets/debug/widget.pt:19
 msgid "Catalog query"
-msgstr "Catalog kysely"
+msgstr "Katalogikysely"
 
 #: ../../facetednavigation/widgets/checkbox/widget.py:91
 msgid "Checkboxes"
@@ -112,15 +112,15 @@ msgstr "pilvi"
 
 #: ../../facetednavigation/widgets/tagscloud/widget.py:137
 msgid "Cloud height"
-msgstr "Cloud korkeus"
+msgstr "Pilven korkeus"
 
 #: ../../facetednavigation/widgets/tagscloud/widget.py:138
 msgid "Cloud height (px)"
-msgstr "Cloud korkeus (px)"
+msgstr "Pilven korkeus (px)"
 
 #: ../../facetednavigation/widgets/tagscloud/widget.py:110
 msgid "Cloud type"
-msgstr "Cloud tyyppi"
+msgstr "Pilven tyyppi"
 
 #: ../../facetednavigation/browser/app/exportimport.py:47
 msgid "Configuration imported"
@@ -128,11 +128,11 @@ msgstr "Määritykset on tuotu"
 
 #: ../../facetednavigation/browser/template/configure.pt:107
 msgid "Content listing"
-msgstr "Sisällön listalle"
+msgstr "Sisällön listaus"
 
 #: ../../facetednavigation/widgets/daterange/widget.py:61
 msgid "Control the range of yearsdisplayed in the year drop-down: either relative to today's year (-nn:+nn), relative to the currently selected year (c-nn:c+nn), absolute (nnnn:nnnn), or combinations of these formats (nnnn:-nn)."
-msgstr "Ohjaa eri yearsdisplayed vuonna avattavasta: joko suhteessa nykypäivän vuoteen (-nn: + nn), suhteessa valittuun vuoteen (c-nn: c + nn), absoluuttinen (nnnn: nnnn), tai niiden yhdistelmiä seuraavista muodoista (nnnn:-nn)."
+msgstr "Määritä pudotusvalikosta vuosilukujen näyttämistä: joko suhteessa nykyiseen vuoteen (-nn: + nn), suhteessa valittuun vuoteen (c-nn: c + nn), absoluuttinen (nnnn: nnnn), tai niiden yhdistelmiä seuraavista muodoista (nnnn:-nn)."
 
 #: ../../facetednavigation/widgets/widget.py:299
 msgid "Count results"
@@ -144,7 +144,7 @@ msgstr "Laskurit"
 
 #: ../../facetednavigation/browser/template/configure.pt:123
 msgid "Criterion details"
-msgstr "Kriteeri yksityiskohdat"
+msgstr "Kriteerien yksityiskohdat"
 
 #: ../../facetednavigation/widgets/debug/widget.pt:35
 msgid "Current configuration"
@@ -152,7 +152,7 @@ msgstr "Nykyinen kokoonpano"
 
 #: ../../facetednavigation/widgets/tagscloud/widget.py:71
 msgid "Cut long phrases to provided number of characters"
-msgstr "Leikkaa pitkiä lauseita jos merkkejä"
+msgstr "Leikkaa pitkiä lauseita merkkimäärän perusteella"
 
 #: ../../facetednavigation/widgets/date/widget.py:72
 msgid "Date"
@@ -168,11 +168,11 @@ msgstr "Debugger"
 
 #: ../../facetednavigation/widgets/daterange/widget.py:51
 msgid "Default daterange (e.g. '2009/12/01=>2009/12/31')"
-msgstr "Oletus daterange (esim. '2009/12/01 => 12.31.2009')"
+msgstr "Oletusaikaväli (esim. '2009/12/01 => 12.31.2009')"
 
 #: ../../facetednavigation/widgets/date/widget.py:60
 msgid "Default daterange (e.g. 'now-365=>now+1' which means 'Starting one year ago until tomorrow')"
-msgstr "Oletus daterange (esim. 'now-365 => Nyt +1' joka tarkoittaa 'alkaen vuosi sitten huomiseen')"
+msgstr "Oletusaikaväli (esim. 'now-365 => Nyt +1' joka tarkoittaa 'alkaen vuosi sitten huomiseen')"
 
 #: ../../facetednavigation/widgets/etag/widget.py:17
 msgid "Default etag"
@@ -180,23 +180,23 @@ msgstr "Oletus ETAG"
 
 #: ../../facetednavigation/widgets/checkbox/widget.py:80
 msgid "Default items (one per line)"
-msgstr "Oletus kohteet (yksi per rivi)"
+msgstr "Oletuskohteet (yksi per rivi)"
 
 #: ../../facetednavigation/widgets/alphabetic/widget.py:40
 msgid "Default letter to be selected"
-msgstr "Oletus kirje valitaan"
+msgstr "Oletuskirjain valittavissa"
 
 #: ../../facetednavigation/widgets/path/widget.py:44
 msgid "Default path to search in (relative to root folder)"
-msgstr "Oletuspolku etsiä (suhteessa pääkansioon)"
+msgstr "Oletuspolku (suhteessa pääkansioon)"
 
 #: ../../facetednavigation/widgets/range/widget.py:34
 msgid "Default range (e.g. '1 => 3')"
-msgstr "Oletus alue (esim. '1 => 3 ')"
+msgstr "Oletusalue (esim. '1 => 3 ')"
 
 #: ../../facetednavigation/widgets/resultsperpage/widget.py:48
 msgid "Default results per page"
-msgstr "Default tulos per sivu"
+msgstr "Oletus: tuloksia per sivu"
 
 #: ../../facetednavigation/widgets/radio/widget.py:70
 #: ../../facetednavigation/widgets/select/widget.py:56
@@ -206,11 +206,11 @@ msgstr "Oletus valitun kohteen"
 
 #: ../../facetednavigation/widgets/sorting/widget.py:31
 msgid "Default sorting index (e.g. 'effective' or 'effective(reverse)')"
-msgstr "Oletus lajittelu-indeksi (esim. 'tehokas' ja 'tehokas (käänteinen)')"
+msgstr "Oletus lajitteluindeksi (esim. 'tehokas' ja 'tehokas (käänteinen)')"
 
 #: ../../facetednavigation/widgets/text/widget.py:31
 msgid "Default string to search for"
-msgstr "Oletus merkkijono etsiä"
+msgstr "Oletusmerkkijono jota etsitään"
 
 #: ../../facetednavigation/widgets/resultsfilter/widget.py:35
 #: ../../facetednavigation/widgets/tal/widget.py:40
@@ -229,31 +229,31 @@ msgstr "Poista"
 
 #: ../../facetednavigation/widgets/path/widget.py:55
 msgid "Depth to search the path. 0=this level, -1=all subfolders recursive, and any other positive integer count the subfolder-levels to search."
-msgstr "Syvyys etsiä polku. 0 = tällä tasolla, -1 = alikansioineen rekursiivinen ja muut positiivinen kokonaisluku laskea alikansiota-tasot etsiä."
+msgstr "Polun syvyys. 0 = tällä tasolla, -1 = alikansioineen rekursiivinen Positiiviset kokonaisluvut laskevat tasoa jolta alikansioita etsitään."
 
 #: ../../facetednavigation/profiles/default/actions.xml
 msgid "Disable faceted navigation"
-msgstr "Poista fasettihiottu navigointi"
+msgstr "Poista fasettinavigointi"
 
 #: ../../facetednavigation/profiles/default/actions.xml
 msgid "Disable faceted search"
-msgstr "Poista fasettihiottu haku"
+msgstr "Poista fasettihaku"
 
 #: ../../facetednavigation/settings/menu.py:60
 msgid "Disable left portlets"
-msgstr "Poista vasen portlet"
+msgstr "Poista vasen sovelma"
 
 #: ../../facetednavigation/settings/menu.py:75
 msgid "Disable right portlets"
-msgstr "Poista oikea portlet"
+msgstr "Poista oikea sovelma"
 
 #: ../../facetednavigation/settings/menu.py:90
 msgid "Disable smart facets hiding"
-msgstr "Poista älykäs puolta piilossa"
+msgstr "Poista käytöstä joustava fasettien piilotus"
 
 #: ../../facetednavigation/widgets/widget.py:300
 msgid "Display number of results near each option"
-msgstr "Näytä tulosten määrä lähes jokaisen vaihtoehdon"
+msgstr "Näytä tulosten määrä jokaisen vaihtoehdon lähellä"
 
 #: ../../facetednavigation/widgets/widget.py:62
 msgid "Display widget in section"
@@ -265,27 +265,27 @@ msgstr "Näytä widget kohdassa."
 
 #: ../../facetednavigation/profiles/default/actions.xml
 msgid "Enable faceted navigation"
-msgstr "Ota fasettihiottu navigointi"
+msgstr "Ota käyttöön fasettinavigointi"
 
 #: ../../facetednavigation/profiles/default/actions.xml
 msgid "Enable faceted search"
-msgstr "Ota fasettihiottu haku"
+msgstr "Ota käyttöön fasettihaku"
 
 #: ../../facetednavigation/widgets/criteria/widget.py:15
 msgid "Enable hide/show criteria"
-msgstr "Ota piilottaa / näyttää kriteerit"
+msgstr "Ota käyttöön piilota/näytä -kriteerit"
 
 #: ../../facetednavigation/settings/menu.py:59
 msgid "Enable left portlets"
-msgstr "Ota vasen portlet"
+msgstr "Ota käyttöön vasen sovelma"
 
 #: ../../facetednavigation/settings/menu.py:74
 msgid "Enable right portlets"
-msgstr "Ota oikea portlet"
+msgstr "Ota käyttöön oikea sovelma"
 
 #: ../../facetednavigation/settings/menu.py:89
 msgid "Enable smart facets hiding"
-msgstr "Ota älykäs puolta piilossa"
+msgstr "Ota käyttöön joustava fasettien piilotus"
 
 #: ../../facetednavigation/widgets/range/widget.pt:28
 #: ../../facetednavigation/widgets/resultsperpage/widget.py:29
@@ -302,7 +302,7 @@ msgstr "Virhetyyppi:"
 
 #: ../../facetednavigation/browser/template/error.pt:12
 msgid "Error value:"
-msgstr "Error arvo:"
+msgstr "Virheen arvo:"
 
 #: ../../facetednavigation/widgets/etag/widget.py:18
 msgid "Etag value"
@@ -314,31 +314,31 @@ msgstr "Vie"
 
 #: ../../facetednavigation/profiles/default/actions.xml
 msgid "Faceted criteria"
-msgstr "Särmikkäät kriteerit"
+msgstr "Fasettien kriteerit"
 
 #: ../../facetednavigation/settings/menu.py:21
 msgid "Faceted global settings"
-msgstr "Särmikkäät yleisasetukset"
+msgstr "Fasettien yleisasetukset"
 
 #: ../../facetednavigation/subtypes/subtyper.py:143
 msgid "Faceted navigation disabled"
-msgstr "Särmikkäät navigointi käytössä"
+msgstr "Fasettinavigointi pois käytöstä"
 
 #: ../../facetednavigation/subtypes/subtyper.py:132
 msgid "Faceted navigation enabled"
-msgstr "Särmikkäät navigointi käytössä"
+msgstr "Fasettinavigointi käytössä"
 
 #: ../../facetednavigation/subtypes/subtyper.py:175
 msgid "Faceted search disabled"
-msgstr "Särmikkäät haku käytössä"
+msgstr "Fasettihaku pois käytöstä"
 
 #: ../../facetednavigation/subtypes/subtyper.py:167
 msgid "Faceted search enabled"
-msgstr "Särmikkäät haku päällä"
+msgstr "Fasettuhaku käytössä"
 
 #: ../../facetednavigation/settings/menu.py:20
 msgid "Faceted settings"
-msgstr "Särmikkäät asetukset"
+msgstr "Fasettien asetukset"
 
 #: ../../facetednavigation/widgets/interfaces.py:31
 msgid "Factory"
@@ -346,15 +346,15 @@ msgstr "Tehdas"
 
 #: ../../facetednavigation/browser/app/configure.py:78
 msgid "Filter added"
-msgstr "Suodata lisätty"
+msgstr "Suodatin lisätty"
 
 #: ../../facetednavigation/browser/app/configure.py:162
 msgid "Filter deleted"
-msgstr "Suodata poistettu"
+msgstr "Suodatin poistettu"
 
 #: ../../facetednavigation/widgets/sorting/widget.py:20
 msgid "Filter from vocabulary"
-msgstr "Suodata mistä sanastosta"
+msgstr "Suodata sanastosta"
 
 #: ../../facetednavigation/widgets/criteria/widget.py:28
 msgid "Filters"
@@ -366,7 +366,7 @@ msgstr "Suodattimet poistettu"
 
 #: ../../facetednavigation/widgets/widget.py:43
 msgid "Friendly name"
-msgstr "Friendly nimi"
+msgstr "Nimi"
 
 #: ../../facetednavigation/widgets/date/widget.py:124
 msgid "Future"
@@ -376,7 +376,7 @@ msgstr "tulevaisuus"
 #: ../../facetednavigation/widgets/radio/widget.py:43
 #: ../../facetednavigation/widgets/select/widget.py:40
 msgid "Get unique values from catalog as an alternative for vocabulary"
-msgstr "Hanki ainutlaatuisia arvoja kuvaston vaihtoehtona sanastoa"
+msgstr "Hae yksittäisiä arvoja katalogista sanaston sijaan"
 
 #: ../../facetednavigation/widgets/widget.py:68
 msgid "Hidden"
@@ -388,7 +388,7 @@ msgstr "Piilota suodattimet"
 
 #: ../../facetednavigation/widgets/widget.py:313
 msgid "Hide items with zero results"
-msgstr "Piilota kohteita nolla tulosta"
+msgstr "Piilota kohteet, jos tuloksia on nolla"
 
 #: ../../facetednavigation/widgets/widget.py:69
 msgid "Hide widget"
@@ -396,31 +396,31 @@ msgstr "Piilota widget"
 
 #: ../../facetednavigation/widgets/text/widget.py:39
 msgid "If this checkbox is checked, hides the choice to filter in all items or in current items only"
-msgstr ""
+msgstr "Jos tämä valintaruutu on ruksattu, piilota mahdollisuus suodattaa kaikkien tulosten tai valittujen tulosten välillä"
 
 #: ../../facetednavigation/browser/template/configure.pt:83
 msgid "Import"
-msgstr "Tuoda"
+msgstr "Tuo"
 
 #: ../../facetednavigation/browser/template/configure.pt:75
 msgid "Import - Export configuration"
-msgstr "Import - Export kokoonpano"
+msgstr "Tuo-vie -asetukset"
 
 #: ../../facetednavigation/browser/template/configure.pt:76
 msgid "Import configuration"
-msgstr "Tuo kokoonpano"
+msgstr "Tuo konfiguraatio"
 
 #: ../../facetednavigation/widgets/sorting/widget.pt:21
 msgid "Invalid or empty vocabulary provided for this widget. Leave empty for default sorting criteria."
-msgstr "Virheellinen tai tyhjä sanastoa säädetyt tämä vekotin. Jätä tyhjä oletuksena lajitteluperusteet."
+msgstr "Vain virheellinen tai tyhjä sanasto tarjolla. Jätä tyhjäksi oletuslajittelua varten."
 
 #: ../../facetednavigation/browser/template/view.pt:31
 msgid "Less filters"
-msgstr "Vähemmän suodattimet"
+msgstr "Vähemmän suodattimia"
 
 #: ../../facetednavigation/widgets/tagscloud/widget.py:21
 msgid "List"
-msgstr "luettelo"
+msgstr "Luettelo"
 
 #: ../../facetednavigation/widgets/tagscloud/widget.py:70
 msgid "Maximum characters"
@@ -428,21 +428,21 @@ msgstr "Merkkien enimmäismäärä"
 
 #: ../../facetednavigation/widgets/tagscloud/widget.py:129
 msgid "Maximum font-size (px)"
-msgstr "Suurin font-size (px)"
+msgstr "Suurin fonttikoko (px)"
 
 #: ../../facetednavigation/widgets/checkbox/widget.py:65
 #: ../../facetednavigation/widgets/radio/widget.py:52
 #: ../../facetednavigation/widgets/tagscloud/widget.py:61
 msgid "Maximum items"
-msgstr "Suurin kohdetta"
+msgstr "Maksimimäärä kohteita"
 
 #: ../../facetednavigation/widgets/tagscloud/widget.py:128
 msgid "Maximum size"
-msgstr "Suurin koko"
+msgstr "Maksimikoko"
 
 #: ../../facetednavigation/widgets/tagscloud/widget.py:120
 msgid "Minimum font-size (px)"
-msgstr "Minimi font-size (px)"
+msgstr "Pienin fonttikoko (px)"
 
 #: ../../facetednavigation/widgets/tagscloud/widget.py:119
 msgid "Minimum size"
@@ -450,7 +450,7 @@ msgstr "Vähimmäiskoko"
 
 #: ../../facetednavigation/browser/template/view.pt:30
 msgid "More filters"
-msgstr "Useampi suodatin"
+msgstr "Lisää suodattimia"
 
 #: ../../facetednavigation/browser/template/configure.pt:164
 msgid "Move Down"
@@ -462,35 +462,35 @@ msgstr "Siirrä ylöspäin"
 
 #: ../../facetednavigation/widgets/path/widget.py:34
 msgid "Navigation js-tree starting point (relative to plone site. ex: SITE/data-and-maps)"
-msgstr "Navigointi js-puu lähtökohta (suhteessa plone sivusto. Ex: SITE/data-ja-kartat)"
+msgstr "Navigoinnin js-puun lähtotaso (suhteessa Plone-sivustoon. Esim. SITE/data-ja-kartat)"
 
 #: ../../facetednavigation/widgets/path/widget.py:67
 msgid "Navigation tree theme"
-msgstr "Navigation puu teema"
+msgstr "Navigointipuun teema"
 
 #: ../../facetednavigation/widgets/date/widget.py:32
 msgid "Next 2 days"
-msgstr "Seuraava 2 päivää"
+msgstr "Seuraavat 2 päivää"
 
 #: ../../facetednavigation/widgets/date/widget.py:35
 msgid "Next 2 weeks"
-msgstr "Seuraavan 2 viikon"
+msgstr "Seuraavat 2 viikkoa"
 
 #: ../../facetednavigation/widgets/date/widget.py:40
 msgid "Next 2 years"
-msgstr "Seuraava 2 vuotta"
+msgstr "Seuraavat 2 vuotta"
 
 #: ../../facetednavigation/widgets/date/widget.py:37
 msgid "Next 3 months"
-msgstr "Seuraavien 3 kuukauden"
+msgstr "Seuraavat 3 kuukautta"
 
 #: ../../facetednavigation/widgets/date/widget.py:33
 msgid "Next 5 days"
-msgstr "Seuraava 5 päivää"
+msgstr "Seuraavat 5 päivää"
 
 #: ../../facetednavigation/widgets/date/widget.py:38
 msgid "Next 6 months"
-msgstr "6 kk"
+msgstr "Seuraavat 6 kuukautta"
 
 #: ../../facetednavigation/widgets/date/widget.py:36
 msgid "Next month"
@@ -498,7 +498,7 @@ msgstr "Ensi kuussa"
 
 #: ../../facetednavigation/widgets/date/widget.py:34
 msgid "Next week"
-msgstr "ensi viikolla"
+msgstr "Ensi viikolla"
 
 #: ../../facetednavigation/widgets/date/widget.py:39
 msgid "Next year"
@@ -506,13 +506,13 @@ msgstr "Seuraava vuosi"
 
 #: ../../facetednavigation/browser/app/exportimport.py:74
 msgid "No action provided"
-msgstr "Ei toimenpiteitä edellyttäen"
+msgstr "Ei edellytä toimenpiteitä"
 
 #: ../../facetednavigation/widgets/checkbox/widget.py:66
 #: ../../facetednavigation/widgets/radio/widget.py:53
 #: ../../facetednavigation/widgets/tagscloud/widget.py:62
 msgid "Number of items visible in widget"
-msgstr "Kohteiden määrä näkyy widget"
+msgstr "Näkyvien kohteiden määrä widgetissä"
 
 #: ../../facetednavigation/widgets/checkbox/widget.py:38
 msgid "Operator"
@@ -524,7 +524,7 @@ msgstr "Tilaus"
 
 #: ../../facetednavigation/widgets/date/widget.py:111
 msgid "Past"
-msgstr "vanhemmat"
+msgstr "Vanhemmat"
 
 #: ../../facetednavigation/widgets/path/widget.py:79
 msgid "Path"
@@ -532,31 +532,31 @@ msgstr "Polku"
 
 #: ../../facetednavigation/widgets/portlet/widget.py:20
 msgid "Path to portlet macro"
-msgstr "Polku portlet makro"
+msgstr "Polku makrosovelmaan"
 
 #: ../../facetednavigation/widgets/portlet/widget.py:31
 msgid "Plone portlet"
-msgstr "Plone portlet"
+msgstr "Plone-sovelma"
 
 #: ../../facetednavigation/widgets/portlet/widget.py:19
 msgid "Portlet macro"
-msgstr "Portlet makro"
+msgstr "Makrosovelma"
 
 #: ../../facetednavigation/settings/menu.py:131
 msgid "Portlets left column is hidden now"
-msgstr "Portlet vasen sarake piilotetaan nyt"
+msgstr "Vasen sovelmasarake on nyt piilossa"
 
 #: ../../facetednavigation/settings/menu.py:128
 msgid "Portlets left column is visible now"
-msgstr "Portlet vasen sarake on näkyvissä nyt"
+msgstr "Vasen sovelmasarake on nyt näkyvissä"
 
 #: ../../facetednavigation/settings/menu.py:141
 msgid "Portlets right column is hidden now"
-msgstr "Portlet oikea sarake piilotetaan nyt"
+msgstr "Oikea sovelmasarake on nyt piilossa"
 
 #: ../../facetednavigation/settings/menu.py:138
 msgid "Portlets right column is visible now"
-msgstr "Portlet oikea sarake näkyy nyt"
+msgstr "Oikea sovelmasarake on nyt näkyvissä"
 
 #: ../../facetednavigation/browser/template/configure.pt:42
 #: ../../facetednavigation/widgets/widget.py:52
@@ -565,11 +565,11 @@ msgstr "Sijainti"
 
 #: ../../facetednavigation/browser/template/configure.pt:43
 msgid "Position of the widget."
-msgstr "Kanta widgetin."
+msgstr "Widgetin sijainti."
 
 #: ../../facetednavigation/widgets/interfaces.py:32
 msgid "Python name of a factory which can create the implementation object.  This must identify an object in a module using the full dotted name."
-msgstr "Python nimi tehdas, joka voi luoda täytäntöönpanoa objekti. Tämä on tunnistettava esine Moduuli koko katkoviivoja nimi."
+msgstr "Python name of a factory which can create the implementation object.  This must identify an object in a module using the full dotted name."
 
 #: ../../facetednavigation/widgets/radio/widget.py:81
 msgid "Radio"
@@ -589,37 +589,37 @@ msgstr "Poista kaikki suodattimet"
 
 #: ../../facetednavigation/widgets/resultsfilter/widget.py:34
 msgid "Results Filter"
-msgstr ""
+msgstr "Tulosten suodatin"
 
 #: ../../facetednavigation/widgets/resultsperpage/widget.py:59
 msgid "Results per page"
-msgstr "Tulokset sivulla"
+msgstr "Tuloksia sivulla"
 
 #: ../../facetednavigation/widgets/resultsperpage/widget.py:30
 msgid "Results per page ending value"
-msgstr "Tulokset sivulla Loppuarvo"
+msgstr "Tuloksia sivulla, loppuarvo"
 
 #: ../../facetednavigation/widgets/resultsperpage/widget.py:21
 msgid "Results per page starting value"
-msgstr "Tulokset sivulla alkuarvo"
+msgstr "Tuloksia sivulla, alkuarvo"
 
 #: ../../facetednavigation/widgets/resultsperpage/widget.py:39
 msgid "Results per page step"
-msgstr "Tulokset sivulla askel"
+msgstr "Tulokset sivulla, askel"
 
 #: ../../facetednavigation/widgets/sorting/widget.pt:50
 msgid "Reverse"
-msgstr "Peruuttaa"
+msgstr "Käänteinen"
 
 #: ../../facetednavigation/widgets/checkbox/widget.py:72
 #: ../../facetednavigation/widgets/radio/widget.py:60
 #: ../../facetednavigation/widgets/select/widget.py:47
 msgid "Reverse options"
-msgstr "Käänteinen vaihtoehtoja"
+msgstr "Käänteiset vaihtoehdot"
 
 #: ../../facetednavigation/widgets/path/widget.py:33
 msgid "Root folder"
-msgstr "Root-kansioon"
+msgstr "Juurikansio"
 
 #: ../../facetednavigation/browser/template/configure.pt:180
 msgid "Save"
@@ -635,11 +635,11 @@ msgstr "Haun syvyys"
 
 #: ../../facetednavigation/widgets/text/widget.py:38
 msgid "Search in all elements only"
-msgstr ""
+msgstr "Hae kaikista elementeistä"
 
 #: ../../facetednavigation/widgets/checkbox/widget.py:39
 msgid "Search with AND/OR between elements"
-msgstr "Haku kanssa ja / tai elementtien välissä"
+msgstr "Käytä AND/OR -määrityksiä elementtien välissä"
 
 #: ../../facetednavigation/browser/template/configure.pt:54
 #: ../../facetednavigation/widgets/widget.py:61
@@ -648,7 +648,7 @@ msgstr "Osa"
 
 #: ../../facetednavigation/widgets/select/widget.py:67
 msgid "Select"
-msgstr "Valita"
+msgstr "Valitse"
 
 #: ../../facetednavigation/browser/template/configure.pt:112
 msgid "Select all items"
@@ -660,21 +660,21 @@ msgstr "Näytä suodattimet"
 
 #: ../../facetednavigation/settings/menu.py:151
 msgid "Smart facets hiding is now disabled"
-msgstr "Smart puolta piilossa on nyt poistettu käytöstä"
+msgstr "Joustava fasettien piilotus on pois käytöstä"
 
 #: ../../facetednavigation/settings/menu.py:148
 msgid "Smart facets hiding is now enabled"
-msgstr "Smart puolta piilossa on nyt käytössä"
+msgstr "Joustava fasettien piilotus on käytössä"
 
 #: ../../facetednavigation/widgets/widget.py:306
 msgid "Sort by countable"
-msgstr ""
+msgstr "Lajittele laskettavien perusteella"
 
 #: ../../facetednavigation/widgets/checkbox/widget.py:73
 #: ../../facetednavigation/widgets/radio/widget.py:61
 #: ../../facetednavigation/widgets/select/widget.py:48
 msgid "Sort options reversed"
-msgstr "Lajittele vaihtoehdoista päinvastaiseksi"
+msgstr "Lajitteluvaihtoehdot käänteiset"
 
 #: ../../facetednavigation/widgets/sorting/widget.py:43
 msgid "Sorting"
@@ -682,7 +682,7 @@ msgstr "Lajittelu"
 
 #: ../../facetednavigation/widgets/tagscloud/widget.py:22
 msgid "Sphere"
-msgstr "Pallo"
+msgstr "Soikea"
 
 #: ../../facetednavigation/widgets/range/widget.pt:20
 #: ../../facetednavigation/widgets/resultsperpage/widget.py:20
@@ -699,7 +699,7 @@ msgstr "Vaihe"
 
 #: ../../facetednavigation/profiles/default/actions.xml
 msgid "Sync faceted translations"
-msgstr "Synkronoi fasettihiottu käännökset"
+msgstr "Synkronoi fasettien käännökset"
 
 #: ../../facetednavigation/widgets/tal/widget.py:60
 msgid "TAL Expression"
@@ -707,7 +707,7 @@ msgstr "TAL Expression"
 
 #: ../../facetednavigation/widgets/tagscloud/widget.py:158
 msgid "Tags Cloud"
-msgstr "Tunnisteet Cloud"
+msgstr "Tagipilvi"
 
 #: ../../facetednavigation/widgets/tal/widget.py:39
 msgid "Tal Expression"
@@ -719,31 +719,31 @@ msgstr "Tekstikenttä"
 
 #: ../../facetednavigation/widgets/path/widget.py:68
 msgid "Theme to be used with this widget"
-msgstr "Teema tulee käyttää tämä vekotin"
+msgstr "Tämän widgetin kanssa käytettävä teema"
 
 #: ../../facetednavigation/widgets/widget.py:314
 msgid "This option works only if 'count results' is enabled"
-msgstr "Tämä toiminto toimii vain, jos \"count tuloksia\" on käytössä"
+msgstr "Tämä toiminto toimii vain, jos 'laske tuloksia' on käytössä"
 
 #: ../../facetednavigation/widgets/path/widget.pt:29
 msgid "This widget will be ignored as provided root is unreachable or it has no folderish children."
-msgstr "Tämä widgetti ohitetaan kuten juuri on tavoittamattomissa tai sillä ei ole folderish lapsia."
+msgstr "Tämä widgetti ohitetaan jos tarvittava juuri on saavuttamattomissa tai sillä ei ole kansiotyyppisiä alaobjekteja."
 
 #: ../../facetednavigation/browser/template/error.pt:3
 msgid "This widget will be ignored in view mode as an error occurred while trying to render it. For more details please check the server log file. You can also try to modify widget configuration in order to see what property is causing this problem."
-msgstr "Tämä widgetti ohitetaan katselutilassa koska tapahtui virhe yrittää tehdä sitä. Lisätietoja tarkista palvelimen lokitiedostoon. Voit myös yrittää muokata widgetin asetukset, jotta nähdään, mitä omaisuutta aiheuttaa tämän ongelman."
+msgstr "Widgetin näyttämisessä tapahtui virhe. Katso lisätietoja palvelimen lokitiedostosta. Voit myös yrittää muokata widgetin asetuksia."
 
 #: ../../facetednavigation/widgets/widget.py:44
 msgid "Title for widget to display in view page"
-msgstr "Otsikko ja widget näyttää koska sivu"
+msgstr "Widgetin otsikko joka näytetään sivua katsottaessa"
 
 #: ../../facetednavigation/widgets/date/widget.py:118
 msgid "Today"
-msgstr "tänään"
+msgstr "Tänään"
 
 #: ../../facetednavigation/widgets/date/widget.py:31
 msgid "Tomorrow"
-msgstr "huomenna"
+msgstr "Huomenna"
 
 #: ../../facetednavigation/browser/template/configure.pt:30
 msgid "Type"
@@ -751,15 +751,15 @@ msgstr "Tyyppi"
 
 #: ../../facetednavigation/widgets/tagscloud/widget.py:111
 msgid "Type of the cloud"
-msgstr "Tyyppi pilvi"
+msgstr "Pilven tyyppi"
 
 #: ../../facetednavigation/browser/template/configure.pt:31
 msgid "Type of the widget."
-msgstr "Tyyppi widgetin."
+msgstr "Widgetin tyyppi."
 
 #: ../../facetednavigation/widgets/daterange/widget.py:60
 msgid "UI Calendar years range"
-msgstr "UI Kalenterivuodet vaihtelevat"
+msgstr "UI kalenterivuosien vaihteluväli"
 
 #: ../../facetednavigation/widgets/criteria/widget.py:16
 msgid "Uncheck this box if you don't want hide/show criteria feature enabled on this widget"
@@ -767,7 +767,7 @@ msgstr "Poista tämä valinta, jos et halua hide / show kriteerit ominaisuus kä
 
 #: ../../facetednavigation/widgets/widget.py:307
 msgid "Use the results counter for sorting"
-msgstr ""
+msgstr "Käytä tulosten laskinta lajittelussa"
 
 #: ../../facetednavigation/widgets/debug/widget.py:22
 msgid "Visible to"
@@ -781,35 +781,35 @@ msgstr "Sanasto"
 
 #: ../../facetednavigation/widgets/sorting/widget.py:21
 msgid "Vocabulary to use to filter sorting criteria. Leave empty for default sorting criteria."
-msgstr "Sanaston käyttö suodattaa lajitteluperusteet. Jätä tyhjä oletuksena lajitteluperusteet."
+msgstr "Sanasto, jota käytetään lajittelun perusteena. Jätä tyhjäksi käyttääksesi oletuslajittelua."
 
 #: ../../facetednavigation/widgets/checkbox/widget.py:48
 #: ../../facetednavigation/widgets/radio/widget.py:33
 #: ../../facetednavigation/widgets/select/widget.py:31
 msgid "Vocabulary to use to render widget items"
-msgstr "Sanaston käyttö tehdä widget kohteita"
+msgstr "Sanasto, jota käytetään kohteiden hakemiseksi widgetiin"
 
 #: ../../facetednavigation/widgets/widget.py:53
 msgid "Widget position in page"
-msgstr "Widget asema sivulla"
+msgstr "Widgetin sijainti sivulla"
 
 #: ../../facetednavigation/browser/template/configure.pt:147
 msgid "Widget type"
-msgstr "Widget tyyppi"
+msgstr "Widgetin tyyppi"
 
 #: ../../facetednavigation/widgets/debug/widget.py:23
 msgid "Widget will be visible only for selected user"
-msgstr "Widget näkyvät vain valituille käyttäjäryhmille"
+msgstr "Widgetit näkyvät vain valituille käyttäjäryhmille"
 
 #: ../../facetednavigation/widgets/date/widget.py:27
 msgid "Yesterday"
-msgstr "eilen"
+msgstr "Eilen"
 
 #: ../../facetednavigation/widgets/text/widget.pt:31
 msgid "all items"
-msgstr "kaikki kohteet"
+msgstr "Kaikki kohteet"
 
 #: ../../facetednavigation/widgets/text/widget.pt:40
 msgid "in current results"
-msgstr "Lyhytaikaisten tulokset"
+msgstr "nykyisistä tuloksista"
 
